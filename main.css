@@ -2,24 +2,56 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 body {
-  background-color: lightgray;
+  background-color: #202020;
+}
+
+.youtube-video {
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+}
+
+.full-form {
+  margin-left: 80px;
+  margin-bottom: 25px;
 }
 
 .comment-header {
   font-size: 25px;
+  color: white;
 }
 
 .input-fields {
   display: flex;
+  color: white;
 }
 
 .name-input {
-  margin-right: 15px;
+  margin-right: 48px;
 }
 
 .commentarea {
   resize: none;
+}
+
+.entire-comment {
+  background-color: #c0c0c0;
+  padding: 7px;
+  max-width: 1110px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}
+
+.name-and-date {
+  display: flex;
+  align-items: center;
+}
+
+.comment-name {
+  font-size: 20px;
+  margin-right: 5px;
 }
