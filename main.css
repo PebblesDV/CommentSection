@@ -1,0 +1,11 @@
+.input-fields {
+  display: flex;
+}
+
+.name-input {
+  margin-right: 7px;
+}
+
+.commentarea {
+  resize: none;
+}
