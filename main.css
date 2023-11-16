@@ -1,9 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,200&family=Roboto:wght@300;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.comment-header {
+  font-size: 25px;
+}
+
 .input-fields {
   display: flex;
 }
 
 .name-input {
-  margin-right: 7px;
+  margin-right: 15px;
 }
 
 .commentarea {

@@ -16,19 +16,19 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
     allowfullscreen></iframe>
 
-    <h1>Add a comment:</h1>
+    <h1 class="comment-header">Add a comment:</h1>
 
-    <form action="" method="POST">
+    <form action="commentresult.php" method="POST">
         <div class="input-fields">
           <div class="name-input">
-            Name: <input type="text" name="name" value="">
+            Name: <input type="text" name="name" value="" size="30">
           </div>
           <div>
-            Email: <input type="text" name="email" value="">
+            Email: <input type="text" name="email" value="" size="30">
           </div>
         </div>
         <div>
-            <textarea class="commentarea" name="comment" cols="53" rows="10"></textarea>
+            <textarea class="commentarea" name="comment" cols="80" rows="10"></textarea>
         </div>
         <input type="submit" value="Send">
     </form>
