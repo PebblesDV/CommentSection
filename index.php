@@ -32,10 +32,30 @@
         </div>
         <input type="submit" value="Send">
     </form>
+
+    <?php
+
+     include 'connection.php';
+
+     $sql = "SELECT name, comment, created_at FROM Comments";
+
+     $result = $conn->query($sql);
+
+     if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            echo "<div>";
+            echo "<h1>" . $row["name"] . "</h1>";
+            echo "<p>" . $row["created_at"] . "</p>"
+
+            echo "<p>" . $row["comment"] . "</p>";
+            echo "</div>";
+        }
+     } else {
+        echo "No comments";
+     }
+
+     $conn->close();
+    
+    ?>
 </body>
 </html>
-
-
-<!-- Connect database -->
-<!-- Zorg dat data in database gezet wordt -->
-<!-- Zorg dat data uit database getoont wordt op het scherm -->
