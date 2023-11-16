@@ -15,6 +15,11 @@ body {
   margin-bottom: 40px;
 }
 
+.name-email-required {
+  color: white;
+  margin-left: 80px;
+}
+
 .full-form {
   margin-left: 80px;
   margin-bottom: 25px;
